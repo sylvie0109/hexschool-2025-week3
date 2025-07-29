@@ -1,0 +1,78 @@
+.header{
+    background-image: url(/img/hero.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 151px 0;
+    text-align: center;
+    margin-bottom: 64px;
+}
+/* .story-container{
+    max-width: 856px;
+    margin: 0 auto;
+} */
+.stories a{
+    color: var(--primary-400);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px; /*下底線偏移*/
+    display: block;
+}
+.stories a:hover{
+    color:var(--primary-500);
+    text-underline-offset: 4px; /*下底線偏移*/
+    font-weight: 500;
+}
+/* .eng-title{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(neutral-0);
+} */
+
+.blockQuote{
+    border-radius: 12px;
+    text-align: center;
+}
+@media(max-width:576px){
+    .blockQuote{
+        border-radius: 12px;
+        text-align: left;
+    }
+}
+.MainImage{
+    max-width: 100%;
+    position: relative;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+.section-lined{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.history-list{
+    list-style: disc;
+    padding-left: 24px;
+}
+.history-label{
+    border-left: 1px solid var(--neutral-900);
+    padding-left: 8px;
+}
+.concept-list{
+    border-left: 3px solid var(--neutral-300);
+    padding-left: 12px;
+}
+.bi{
+    padding-right: 8px;
+    vertical-align: bottom;
+}
+
+/*Mobile版*/
+/*當螢幕解析度在767px"以下”的時候呈現的樣式*/
+@media(max-width:767px){
+    .header{
+        padding-top: 87px;
+        padding-bottom: 87px;
+        background-image: url(/img/hero-sm.png);
+        margin-bottom: 32px;
+    }
+}

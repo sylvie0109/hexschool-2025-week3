@@ -1,0 +1,36 @@
+
+.menu .active{
+    color: var(--primary-400);
+}
+.menu .active:hover{
+    color: var(--primary-500);
+}
+.menu .active:focus{
+    color: var(--primary-500);
+    border-bottom: 2px solid var(--primary-500);
+}
+.card a:hover{
+    border:none;
+}
+.page-btn{
+    background: transparent;
+    border: none;
+    padding: 8px 15px; 
+    font-weight: 400;
+    cursor: pointer;
+}
+.page-btn:hover{
+    border-radius: 0;
+    padding: 8px 15px; 
+    font-weight: 600;
+}
+.page-btn:focus{
+    border-radius: 0;
+    padding: 8px 15px; 
+    font-weight: 600;
+    background: var(--primary-300);
+}
+/* .page-item .active{
+    font-weight: 500;
+    background: var(--primary-300);
+} */
